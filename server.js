@@ -13,11 +13,11 @@ app.get('/Article-one',function (req, res) {
     res.sendFile(path.join(__dirname, 'ui', 'Article-one.html'));
 });
 
-app.get('/Article two',function (req, res) {
+app.get('/Article-two',function (req, res) {
   res.send('Article two requested and will be served here');  
 });
 
-app.get('/Article three',function (req, res) {
+app.get('/Article-three',function (req, res) {
   res.send('Article three requested and will be served here');  
 });
 
